@@ -1,0 +1,11 @@
+PRODUCT,DEPARTMENT,PRICE,INVENTORY
+plate,dining,4.00,100
+bowl,dining,5.00,50
+chopsticks,dining,1.00,100
+toothbrush,bath,1.00,40
+loofa,bath,0.50,30
+towel,bath,6.00,20
+tv,electronics,1500,10
+radio,electronics,600,25
+butt,problems,100,99
+baby,problems,100000,5

@@ -1,0 +1,31 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Amazon wannabe",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainhoang/Bamazon.git"
+  },
+  "keywords": [
+    "bamazon",
+    "amazon",
+    "mysql",
+    "databases",
+    "node.js",
+    "inquirer"
+  ],
+  "author": "Mai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mainhoang/Bamazon/issues"
+  },
+  "homepage": "https://github.com/mainhoang/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0"
+  }
+}
