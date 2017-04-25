@@ -48,6 +48,7 @@ function updateInventory(Q, buyQ, item){
 // }
 
 connection.query("SELECT * FROM store", function(err, response) {
+
     console.table(response);
     inquirer.prompt([{
         type: 'input',
@@ -59,9 +60,9 @@ connection.query("SELECT * FROM store", function(err, response) {
         message: 'How many?',
     }]).then(function(answer) {
 
-        console.log("================================================================================");
+        console.log("===================================================================================");
         console.log("It looks like you would like to buy " + answer.quantity + " " + answer.buy + "s. Let me check to see if we can fulfill your order.");
-        console.log("================================================================================");
+        console.log("===================================================================================");
 
         var item = answer.buy;
         var quantity = answer.quantity;
@@ -75,7 +76,7 @@ connection.query("SELECT * FROM store", function(err, response) {
 
                     console.log("We have enough!");
                     updateInventory(response[i].inventory, quantity, item);
-                    console.log("You owe " + response[i].inventory * quantity);
+                    console.log("You owe $" + response[i].inventory * quantity + ".");
 
                 } else {
 
@@ -83,7 +84,6 @@ connection.query("SELECT * FROM store", function(err, response) {
 
                 }
             }
-        })
-
+        });
     });
 });

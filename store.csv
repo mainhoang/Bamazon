@@ -1,0 +1,11 @@
+id,"product","department",price,inventory
+1,"plate","dining",4,70
+2,"bowl","dining",5,39
+3,"chopsticks","dining",1,78
+4,"toothbrush","bath",1,7
+5,"loofa","bath",1,2
+6,"towel","bath",6,20
+7,"tv","electronics",1500,10
+8,"radio","electronics",600,21
+9,"butt","problems",100,99
+10,"baby","problems",100000,5
