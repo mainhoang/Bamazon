@@ -1,5 +1,6 @@
 # CLI-get
-CLI + Target = CLI-get! Get it? NVM. This is a command line store. 
+
+CLI + Target = CLI-get! Get it? NVM. This is a command line store. I use an NPM package to prompt the customer what & how they would to buy. The app checks the database to make sure that the order is capable of being fulfilled, updates the database, & returns your invoice. 
 
 	
 <img width="631" alt="screenshot-1" src="https://cloud.githubusercontent.com/assets/12633694/25305982/ba347cd2-2739-11e7-8915-a88bc3737f09.png">
